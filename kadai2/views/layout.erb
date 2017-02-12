@@ -1,0 +1,12 @@
+<h1>掲示板<h1>
+<h3>投稿一覧</h3>
+<% @messages.each do |message| %>
+<%= message %>
+</br>
+<% end %>
+
+<form method="post" action="">
+<p>投稿<input type="text" name="message"></p>
+<p><input type="submit" value="送信する"></p>
+
+</form>

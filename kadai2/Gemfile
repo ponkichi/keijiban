@@ -1,0 +1,8 @@
+#coding: utf-8
+source "http://rubygems.org"
+# sqlite3
+gem 'sqlite3'
+# sequel
+gem 'sequel'
+#sinatra
+gem 'sinatra'
